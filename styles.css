@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ width: 100%;
+ font-family: "Edu NSW ACT Foundation", cursive;
+    background-color: rgb(255, 212, 212);}.text{font-size: 40px;
+        font-weight: 100;
+        color: rgb(0, 0, 0);}
+    h2{ color: rgb(0, 0, 0);}
+    h1, h2, h3 {
+        text-align: center; }
+        .mavi{background-color: blue;}
+        
+        .links {
+            border: 1px solid red;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .login {
+            margin-left: 20px;
+        }
+
+        .menu {
+            border: 20;
+            display: flex;
+            justify-content: space-between ;
+        }
