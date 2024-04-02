@@ -4,8 +4,8 @@
 }
 body{
  width: 100%;
- font-family: "Edu NSW ACT Foundation", cursive;
-    background-color: rgb(255, 212, 212);}.text{font-size: 40px;
+ font-family: "Protest Revolution", sans-serif;
+    background-color: rgb(255, 255, 255);}.text{font-size: 40px;
         font-weight: 100;
         color: rgb(0, 0, 0);}
     h2{ color: rgb(0, 0, 0);}
@@ -16,8 +16,9 @@ body{
         .links {
             border: 1px solid red;
             display: flex;
-            justify-content: flex-end;
+            justify-content: flex-start;
         }
+
         .login {
             margin-left: 20px;
         }
@@ -26,4 +27,43 @@ body{
             border: 20;
             display: flex;
             justify-content: space-between ;
+        }
+
+
+        .flex-container {
+            height: 100px;
+            display:flex;
+            flex-direction: row;
+            justify-content:space-between;
+            align-items: center;
+        }
+
+        .header-container {
+            color: #5995da;
+            background-color: #d6e9fe;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header {
+            width: 900px;
+            height: 100px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .photo-grid-container {
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .photo-grid{
+            display:flex;
+            justify-content: center;
+            width: 900px;
+            flex-wrap: wrap;
+            align-items: center;
         }
